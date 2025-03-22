@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .calendar {
+            margin-top: 20px;
+            border: 5px solid white;
+        }
+        .calendar-header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+        .day {
+            text-align: center;
+            padding: 10px;
+            color: white
+            
+        }
+        .day:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+            color: black;
+        }
+        body{
+            background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54368.jpg?semt=ais_hybrid);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .as{
+            margin-left: 1850px;
+            border: 5px solid rgb(255, 255, 255);
+            border-radius: 3px;
+            background-color: rgb(255, 255, 255);
+            color: red;
+        }
+        .asd{
+            margin-left: 50px;
+            border: 5px solid rgb(255, 255, 255);
+            border-radius: 3px;
+            background-color: rgb(255, 255, 255);
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="container">
+        <h3 id="content-display" class="text-center bg-light border-dark text-dark">June</h3>
+        
+    </div> 
+</div>
+<a href="July.html" class="as">NEXT</a>
+<a href="May.html" class="asd">PREVIOUS</a>
+
+    <div class="calendar">
+        <div class="row calendar-header">
+            <div class="col">Sun</div>
+            <div class="col">Mon</div>
+            <div class="col">Tue</div>
+            <div class="col">Wed</div>
+            <div class="col">Thu</div>
+            <div class="col">Fri</div>
+            <div class="col">Sat</div>
+        </div>
+        <div class="row">
+            <div class="col day text-danger">1</div>
+            <div class="col day">2</div>
+            <div class="col day">3</div>
+            <div class="col day">4</div>
+            <div class="col day">5</div>
+            <div class="col day">6</div>
+            <div class="col day text-danger">7</div>
+        </div>
+        <div class="row">
+            <div class="col day text-danger">8</div>
+            <div class="col day">9</div>
+            <div class="col day">10</div>
+            <div class="col day">11</div>
+            <div class="col day text-danger">12</div>
+            <div class="col day">13</div>
+            <div class="col day">14</div>
+        </div>
+        <div class="row">
+            <div class="col day text-danger">15</div>
+            <div class="col day">16</div>
+            <div class="col day">17</div>
+            <div class="col day">18</div>
+            <div class="col day">19</div>
+            <div class="col day">20</div>
+            <div class="col day">21</div>
+        </div>
+        <div class="row">
+            <div class="col day text-danger">22</div>
+            <div class="col day">23</div>
+            <div class="col day">24</div>
+            <div class="col day">25</div>
+            <div class="col day">26</div>
+            <div class="col day">27</div>
+            <div class="col day">28</div>
+        </div>
+        <div class="row">
+            <div class="col day text-danger">29</div>
+            <div class="col day">30</div>
+            <div class="col day empty"></div>
+            <div class="col day empty"></div>
+            <div class="col day empty"></div>
+            <div class="col day empty"></div>
+            <div class="col day empty"></div>
+        </div>
+    </div>
+</div>         
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
